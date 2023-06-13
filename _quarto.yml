@@ -1,0 +1,39 @@
+project:
+  type: website
+
+website:
+  title: "Mark Girard"
+  navbar:
+    logo: profile.jpg
+    background: dark
+    left:
+      - about.qmd
+    right:
+      - icon: github
+        href: https://github.com/
+      - icon: twitter
+        href: https://twitter.com
+  sidebar:
+    style: docked
+    logo: profile.jpg
+    border: false
+    background: dark
+    foreground: gray-600
+    alignment: left
+    contents:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Blog"
+        href: blog.qmd
+  page-footer:
+    left: "© Copyright 2023 Mark Girard."
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+
+
+
