@@ -35,7 +35,7 @@ When I was still in academia, my research interests centred around solving mathe
 See a list of my publications here and more details of my research here.
 
 On this site I keep a list of [my publications](papers), [presentations](talks), 
-and [my CV](cv.pdf), as well as a [technical blog](blog.html).
+and [my CV](cv.pdf), as well as a [technical blog](mathblog).
 
 
 ## Miscellaneous

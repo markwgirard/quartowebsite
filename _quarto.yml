@@ -8,11 +8,12 @@ website:
     background: dark
     left:
       - about.qmd
+      - mathblog.qmd
     right:
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/markwgirard
+      - icon: linkedin
+        href: https://www.linkedin.com/in/markwgirard/
   sidebar:
     style: docked
     logo: profile.jpg
@@ -23,10 +24,16 @@ website:
     contents:
       - text: "Home"
         href: index.qmd
-      - text: "About"
-        href: about.qmd
       - text: "Blog"
-        href: blog.qmd
+        href: mathblog.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "CV"
+        href: cv.qmd
+      - text: "Miscellaneous"
+        href: miscllaneous.qmd
   page-footer:
     left: "© Copyright 2023 Mark Girard."
 format:
@@ -35,5 +42,7 @@ format:
     css: styles.css
     toc: false
 
-
+comments:
+  giscus:
+    repo: markwgirard/markwgirard.github.io
 

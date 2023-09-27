@@ -1,3 +1,5 @@
 # gitignore file for my quarto project
 /.quarto/
 /_site/
+
+/.luarc.json
